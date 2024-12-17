@@ -117,7 +117,7 @@ body {
 }
 
 #button {
-	background-image: url("./pics/love.png");
+	background-image: url("../pics/love.png");
 	background-repeat: no-repeat;
 	background-size: contain;
 	background-color: transparent;
