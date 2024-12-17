@@ -23,7 +23,7 @@ function typeWriter(text, para) {
 		setTimeout(function () {
 			// document.getElementById(para).innerHTML = ''; // Clear the content
 			document.getElementById(para).style.display = 'none';
-		}, 2200); // 2000 milliseconds = 2 seconds
+		}, 3000); // 2000 milliseconds = 2 seconds
 
 	}
 }
