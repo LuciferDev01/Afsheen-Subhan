@@ -1,7 +1,7 @@
 
 let i = 0;
 let text1 = "Hello Afsheen meri Jaan ❤️";
-let text2 = "Today is the Big Day of my life Date - 17/12/2023"
+let text2 = "This is the Big Day of my life Date - 18/12/2023"
 let speed = 100;
 
 function typeWriter(text, para) {
