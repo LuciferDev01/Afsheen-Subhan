@@ -1,0 +1,68 @@
+<!DOCTYPE HTML>
+<html lang="en">
+
+<head>
+	<meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=0">
+	<meta charset="UTF-8">
+	<link rel="preconnect" href="https://fonts.googleapis.com">
+	<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+	<link
+		href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap"
+		rel="stylesheet">
+	<link rel="stylesheet" type="text/css" href="./css/style.css">
+	<title>First Anniversary of love</title>
+</head>
+
+<body>
+
+	<canvas></canvas>
+	<div id="imgTxt">
+		<span id="Txt"></span> <br />
+		<span id="tmp"></span>
+		<img id="img" src="">
+	</div>
+	<div id="heartTxt">
+		<span id="clickMe">Click!</span>
+		<div id="heart">
+			<button id="button" onclick="play()"></button>
+		</div>
+	</div>
+	<div id="audioControl">
+		<button id="audioButton" onclick="toggleAudio()">Play Music</button>
+	</div>
+	<div id="content">
+		<h2 id="together">We have been together</h2>
+		<div id="timer">
+			<b id="d"></b> Days
+			<b id="h"></b> Hours
+			<b id="m"></b> Minutes
+			<b id="s"></b> Seconds
+		</div>
+	</div>
+
+	<div id="typeDiv">
+		<span id="txt1"></span> <br> <br>
+		<span id="txt2"></span>
+	</div>
+
+	<script>
+		var ok = 0;
+		var flag = 1;
+		var myImage = document.getElementById("img");
+		var myTxt = document.getElementById("Txt");
+		var imageArray = ["./pics/1.jpg", "./pics/2.jpg", "./pics/3.jpg", "./pics/4.jpg", "./pics/5.jpg", "./pics/6.jpg",
+			"./pics/7.jpg", "./pics/8.jpg", "./pics/9.jpg", "./pics/10.jpg", "./pics/11.jpg", "./pics/12.jpg", "./pics/13.jpg"];
+		var imageIndex = 0;
+		var txtArray = ["Hello cutei 🙋‍♂️", "Happy Anniversary meri Jaan ❤️", "Jabse mujhe aapse pyar hua hai... jaise jaise din beet rahe hai ye pyar aur zyada ho raha hai", "Aap hi mere pyar karne ki wajeh ho", "Aap mere liye sabse zaruri ho", "Ye maine kabhi kisi ladki se nahi kaha... Aur hamesha sirf aapse hi rahega..!🗣️", "Mai aapki bahot fikar karta ju Jaan", "Aapko hamesha khush rakhna chahta hu", "I love you ❤️ so much ", "Ye hamari ek saal ki yaadein hai jo hamne banayi hai", "Hame hamesha saath rehna hai", "Mai kabhi aapka saath nahi chodunga", "I Love you Jaan ❤️"];
+		var len = imageArray.length;
+		var t = 0;
+	</script>
+
+	<script src="./js/playaudio.js"></script>
+	<script type="text/javascript" src="./js/stars.js"></script>
+	<script type="text/javascript" src="./js/typeWriter.js"></script>
+	<script type="text/javascript" src="./js/date.js"></script>
+	<script type="text/javascript" src="./js/playImg.js"></script>
+</body>
+
+</html>
